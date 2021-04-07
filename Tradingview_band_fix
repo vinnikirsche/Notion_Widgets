@@ -1,0 +1,36 @@
+<!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+  <div class="tradingview-widget-container__widget"></div>
+  <div class="tradingview-widget-copyright"><a href="https://de.tradingview.com" rel="noopener" target="_blank"><span class="blue-text">Kurse</span></a> von TradingView</div>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-tickers.js" async>
+  {
+  "symbols": [
+    {
+      "proName": "BITSTAMP:BTCUSD",
+      "title": "BTC/USD"
+    },
+    {
+      "proName": "BITSTAMP:ETHUSD",
+      "title": "ETH/USD"
+    },
+    {
+      "description": "MSCI Worlds",
+      "proName": "SWB:EUNL"
+    },
+    {
+      "description": "Clean Energy ETF",
+      "proName": "SWB:IQQH"
+    },
+    {
+      "description": "Emerging Markets",
+      "proName": "SWB:IBC3"
+    }
+  ],
+  "colorTheme": "dark",
+  "isTransparent": true,
+  "showSymbolLogo": true,
+  "locale": "de_DE"
+}
+  </script>
+</div>
+<!-- TradingView Widget END -->
